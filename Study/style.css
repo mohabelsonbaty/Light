@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  border: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0077b6;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+  margin-top: 3px;
+  margin: 50px 50px;
+}
+button:hover {
+  background-color: #005c97;
+}
+
+.active {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+  margin: 50px;
+  border: 3px solid #ccc;
+  background-color: #000;
+  color: #fff;
+}
+
+.dark {
+  background-color: aqua;
+  color: #fff;
+  font-size: 50px;
+}
